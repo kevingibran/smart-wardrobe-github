@@ -26,6 +26,7 @@
         "APP_KEY": "base64:AreF/3MOHG4DOfmGTOhvrEn4Jmg7G/Jm/t6PrrP5eVo=",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
+        "LOG_PATH": "/tmp/laravel.log",
         "SESSION_DRIVER": "cookie",
         "VIEW_COMPILED_PATH": "/tmp",
         "APP_CONFIG_CACHE": "/tmp/config.php",
