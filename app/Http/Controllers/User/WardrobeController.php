@@ -50,7 +50,7 @@ class WardrobeController extends Controller
 
     public function destroy(Wardrobe $wardrobe)
     {
-        if ($wardrobe->user_id !== auth()->id()) abort(403);
+        if ($wardrobe->user_id != auth()->id()) abort(403);
         $wardrobe->delete();
         return back()->with('success', 'Pakaian dihapus dari lemari.');
     }
